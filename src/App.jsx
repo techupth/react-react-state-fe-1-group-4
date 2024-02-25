@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 
+
 function App() {
   const [greeting, setGreeting] = useState('Greeting Message');
 
@@ -15,7 +16,6 @@ function App() {
   const chineseGreetingClick = () => {
     setGreeting('你好!');
   };
-
 
   return (
     <div className="App">
